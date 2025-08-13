@@ -57,14 +57,14 @@ subprocess.Popen(r"C:\Users\ntorreslo\OneDrive - Telefonica\Escritorio\OPEFIN 1.
 ensure_capslock_off()
 
 print("Esperando 40 segundos para que la aplicación se cargue...")
-time.sleep(30)
+time.sleep(40)
 
 # ============================================================
 # AUTENTICACIÓN EN LA APLICACIÓN
 # ============================================================
 
 pyautogui.press('enter')
-time.sleep(2)
+time.sleep(3)
 pyautogui.press('delete')
 
 pyautogui.press('capslock')
