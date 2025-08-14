@@ -17,7 +17,7 @@ fin_mes = hoy.replace(day=ultimo_dia)
 
 fecha_inicio = inicio_mes.strftime('%d/%m/%Y')
 fecha_fin = fin_mes.strftime('%d/%m/%Y')
-fecha_swap = '29/05/2025'
+fecha_swap = '30/06/2025'
 
 # ============================================================
 # UTILIDADES DEL SISTEMA
@@ -52,33 +52,17 @@ def ya_existe_detalle_swap(ruta_descargas, prefijo="Detalle_Swap", extension=".x
 # INICIO DE APLICACIÓN
 # ============================================================
 print("Ejecutando el archivo CMD...")
-subprocess.Popen(r"C:\Users\ntorreslo\OneDrive - Telefonica\Escritorio\OPEFIN 1.cmd", shell=True)
+
+# En esta versión se hace uso del nuevo OPEFIN, esperemos que mejore la 
+# Velocidad de descarga de los informes
+subprocess.Popen(r"C:\OPEFIN NUEVO\OPEFIN 2.cmd", shell=True)
 
 ensure_capslock_off()
 
 print("Esperando 40 segundos para que la aplicación se cargue...")
-time.sleep(40)
+time.sleep(30)
 
-# ============================================================
-# AUTENTICACIÓN EN LA APLICACIÓN
-# ============================================================
-
-pyautogui.press('enter')
-time.sleep(3)
-pyautogui.press('delete')
-
-pyautogui.press('capslock')
-pyautogui.write('OPFN', interval=0.1)
-pyautogui.press('capslock')
-
-pyautogui.press('tab')
-pyautogui.write('opfn', interval=0.1)
-pyautogui.press('tab')
-pyautogui.write('afinprod', interval=0.1)
-pyautogui.press('tab')
-pyautogui.press('enter')
-
-time.sleep(8)
+# En esta versión se omite la autenticación de la aplicación
 
 # ============================================================
 # NAVEGACIÓN A INFORMES
@@ -86,8 +70,8 @@ time.sleep(8)
 
 def abrir_modulo_informes():
     """Navega al módulo de informes y abre la sección de Excel."""
-    pyautogui.click((32, 342))  # Módulo informes
-    pyautogui.doubleClick((151, 389))  # Informes Excel
+    pyautogui.click((28, 305))  # Módulo INFORMES
+    pyautogui.doubleClick((142, 340))  # Petición de Informes Excel
     time.sleep(1)
 
 abrir_modulo_informes()
@@ -96,12 +80,12 @@ abrir_modulo_informes()
 # DESCARGA DE INFORMES
 # ============================================================
 
-def descargar_informe(nombre, fecha_ini=None, fecha_fin=None, solo_fecha=False):
+def descargar_informe(nombre, fecha_ini=None, fecha_fin=None, solo_fecha=False, tiempo_espera=30):
     """
     Busca y descarga un informe por nombre y fechas.
     """
     time.sleep(3)
-    pyautogui.click((92, 136))  # Barra de búsqueda
+    pyautogui.click((67, 115))  # Barra de búsqueda del nuevo Infisa
     print(f"Buscando informe: {nombre}")
     pyautogui.write(nombre, interval=0.1)
     pyautogui.press('enter')
@@ -114,27 +98,32 @@ def descargar_informe(nombre, fecha_ini=None, fecha_fin=None, solo_fecha=False):
         pyautogui.press('tab')
         pyautogui.write(fecha_fin, interval=0.1)
 
-    pyautogui.click((687, 440))  # Botón de descarga
+    pyautogui.click((688, 424))  # Botón de descarga/ Alias rayito/ O lanzar informe
     print(f"Informe '{nombre}' solicitado.")
-    time.sleep(30) # Es muy importante este número ya que es el que van a esperar todos los informes
 
-    pyautogui.hotkey('alt', 'tab')
+    time.sleep(tiempo_espera) # Es muy importante este número ya que es el que 
+    #van a esperar todos los informes. Por defecto son 30s si no se especifica
+    #es mejor especificarlo ya que esto puede variar a veces entre meses.
+
+    pyautogui.hotkey('alt', 'tab') # Esto es para devolverme a Infisa y siga el RPA con normalidad
     time.sleep(2)
     print("Confirmación posterior a descarga realizada.")
 
 # ------------------------------------------------------------
 # Descargar informes
 # ------------------------------------------------------------
-pyautogui.click((1249, 325))  # Confirmación
-descargar_informe(nombre="Liquidaciones NDF", fecha_ini=fecha_inicio, fecha_fin=fecha_fin)
-pyautogui.click((1249, 325))  # Confirmación
-descargar_informe(nombre="Intereses de Deuda", fecha_ini=fecha_inicio, fecha_fin=fecha_fin)
+
+pyautogui.click((1252, 309))  # Botón de flecha abajo para consultar todos los Informes de Excel
+descargar_informe(nombre="Liquidaciones NDF", fecha_ini=fecha_inicio, fecha_fin=fecha_fin, tiempo_espera=180)
+
+pyautogui.click((1252, 309))  # Botón de flecha abajo para consultar todos los Informes de Excel
+descargar_informe(nombre="Intereses de Deuda", fecha_ini=fecha_inicio, fecha_fin=fecha_fin, tiempo_espera=15)
 
 # Verificar si ya existe el archivo de Detalle Swap
 ruta_descargas = r"C:\Users\ntorreslo\Downloads"
 
 if not ya_existe_detalle_swap(ruta_descargas):
-    pyautogui.click((1249, 325))  # Confirmación
+    pyautogui.click((1252, 309))  # Botón de flecha abajo para consultar todos los Informes de Excel
     descargar_informe(nombre="Detalle Swap", fecha_ini=fecha_swap, solo_fecha=True)
 else:
     print("Ya existe un archivo 'Detalle_Swap' este mes. Se omite la descarga.")
@@ -143,8 +132,8 @@ else:
 # CIERRE DE APLICACIÓN
 # ============================================================
 
-pyautogui.click((661, 307))  # Botón salir
-time.sleep(1)
+pyautogui.click((663, 297))  # Botón salir/ Es una puerta roja en el costado izquierdo superior
+time.sleep(2)
 pyautogui.hotkey('alt', 'f4')
+pyautogui.hotkey('alt', 'tab') # En este caso, me quiero devolver al IDE a continuar programando o devolverme a hacer lo que esté haciendo
 print("Aplicación cerrada.")
-
