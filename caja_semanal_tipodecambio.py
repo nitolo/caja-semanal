@@ -10,7 +10,7 @@ from openpyxl import load_workbook
 
 # Fecha actual y formato
 fecha_actual = datetime.now().strftime("%d%m%y")
-DESTINO_BASE = r"\\192.168.235.35\GerenciaMercadoCapitales\02_Riesgo_Deuda\01_Back_Office\2_Proyección_de_Caja\2025\8. Agosto"
+DESTINO_BASE = r"\\192.168.235.35\GerenciaMercadoCapitales\02_Riesgo_Deuda\01_Back_Office\2_Proyección_de_Caja\2025\10. Octubre"
 TEMPLATE_EXCEL = r"\\192.168.235.35\GerenciaMercadoCapitales\02_Riesgo_Deuda\01_Back_Office\2_Proyección_de_Caja\Plantilla Proyección de caja.xlsx"
 carpeta_destino = os.path.join(DESTINO_BASE, fecha_actual)
 plantilla_destino = os.path.join(carpeta_destino, f"Proyección de caja {fecha_actual}.xlsx")

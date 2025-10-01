@@ -1,0 +1,170 @@
+2025-08-21 12:41:01,801 - INFO - === INICIANDO EJECUCIÓN DE SCRIPTS ===
+2025-08-21 12:41:01,801 - INFO - Ejecutando caja_semanal_descarga.py...
+2025-08-21 12:45:13,081 - INFO - caja_semanal_descarga.py ejecutado correctamente
+2025-08-21 12:45:13,081 - INFO - Salida de caja_semanal_descarga.py:
+
+c:\Users\ntorreslo\OneDrive - Telefonica\Documentos\Research\Modelos\Automatizaciones\Infisa\Caja semanal>javaws http://10.203.222.184:7777/forms/frmservlet?config=opefin_ws 
+Ejecutando el archivo CMD...
+Caps Lock ya estaba desactivado.
+Esperando 40 segundos para que la aplicación se cargue...
+Buscando informe: Liquidaciones NDF
+Informe 'Liquidaciones NDF' solicitado.
+Confirmación posterior a descarga realizada.
+Buscando informe: Intereses de Deuda
+Informe 'Intereses de Deuda' solicitado.
+Confirmación posterior a descarga realizada.
+Ya existe un archivo 'Detalle_Swap' este mes. Se omite la descarga.
+Aplicación cerrada.
+
+2025-08-21 12:45:13,091 - INFO - Ejecutando caja_semanal_limpieza.py...
+2025-08-21 12:45:34,467 - INFO - caja_semanal_limpieza.py ejecutado correctamente
+2025-08-21 12:45:34,467 - INFO - Ejecutando caja_semanal_tipodecambio.py...
+2025-08-21 12:45:45,357 - INFO - caja_semanal_tipodecambio.py ejecutado correctamente
+2025-08-21 12:45:45,359 - INFO - Salida de caja_semanal_tipodecambio.py:
+Tasa de cambio EUR/USD: 1.1639
+Tasa de cambio USD/COP: 4025.51
+
+Último dato EUR/USD:
+1.1639
+
+Último dato USD/COP:
+4025.51
+
+2025-08-21 12:45:45,359 - INFO - === RESUMEN DE EJECUCIÓN ===
+2025-08-21 12:45:45,360 - INFO - Scripts ejecutados exitosamente: 3
+2025-08-21 12:45:45,362 - INFO - Scripts fallidos: 0
+2025-08-21 12:45:45,363 - INFO - Tiempo total de ejecución: 4 minutos y 43 segundos
+2025-08-21 12:45:45,364 - INFO - Todos los scripts ejecutados correctamente
+2025-08-21 14:25:59,366 - ERROR - Connection to the client is lost! Shutting down the server.
+2025-08-25 17:11:22,067 - INFO - === INICIANDO EJECUCIÓN DE SCRIPTS ===
+2025-08-25 17:11:22,082 - INFO - Ejecutando caja_semanal_descarga.py...
+2025-08-25 17:15:32,542 - INFO - caja_semanal_descarga.py ejecutado correctamente
+2025-08-25 17:15:32,544 - INFO - Salida de caja_semanal_descarga.py:
+
+c:\Users\ntorreslo\OneDrive - Telefonica\Documentos\Research\Modelos\Automatizaciones\Infisa\Caja semanal>javaws http://10.203.222.184:7777/forms/frmservlet?config=opefin_ws 
+Ejecutando el archivo CMD...
+Caps Lock ya estaba desactivado.
+Esperando 40 segundos para que la aplicación se cargue...
+Buscando informe: Liquidaciones NDF
+Informe 'Liquidaciones NDF' solicitado.
+Confirmación posterior a descarga realizada.
+Buscando informe: Intereses de Deuda
+Informe 'Intereses de Deuda' solicitado.
+Confirmación posterior a descarga realizada.
+Ya existe un archivo 'Detalle_Swap' este mes. Se omite la descarga.
+Aplicación cerrada.
+
+2025-08-25 17:15:32,548 - INFO - Ejecutando caja_semanal_limpieza.py...
+2025-08-25 17:15:43,012 - INFO - caja_semanal_limpieza.py ejecutado correctamente
+2025-08-25 17:15:43,012 - INFO - Ejecutando caja_semanal_tipodecambio.py...
+2025-08-25 17:15:53,327 - INFO - caja_semanal_tipodecambio.py ejecutado correctamente
+2025-08-25 17:15:53,331 - INFO - Salida de caja_semanal_tipodecambio.py:
+Tasa de cambio EUR/USD: 1.1697
+Tasa de cambio USD/COP: 4017.44
+
+Último dato EUR/USD:
+1.1697
+
+Último dato USD/COP:
+4017.44
+
+2025-08-25 17:15:53,331 - INFO - === RESUMEN DE EJECUCIÓN ===
+2025-08-25 17:15:53,331 - INFO - Scripts ejecutados exitosamente: 3
+2025-08-25 17:15:53,333 - INFO - Scripts fallidos: 0
+2025-08-25 17:15:53,333 - INFO - Tiempo total de ejecución: 4 minutos y 31 segundos
+2025-08-25 17:15:53,335 - INFO - Todos los scripts ejecutados correctamente
+2025-08-25 17:33:51,910 - ERROR - Connection to the client is lost! Shutting down the server.
+2025-09-01 12:38:28,925 - INFO - === INICIANDO EJECUCIÓN DE SCRIPTS ===
+2025-09-01 12:38:28,925 - INFO - Ejecutando caja_semanal_descarga.py...
+2025-09-01 12:41:13,595 - INFO - caja_semanal_descarga.py ejecutado correctamente
+2025-09-01 12:41:13,606 - INFO - Salida de caja_semanal_descarga.py:
+
+c:\Users\ntorreslo\OneDrive - Telefonica\Documentos\Research\Modelos\Automatizaciones\Infisa\Caja semanal>javaws http://10.203.222.184:7777/forms/frmservlet?config=opefin_ws 
+Ejecutando el archivo CMD...
+Caps Lock ya estaba desactivado.
+Esperando 40 segundos para que la aplicación se cargue...
+Buscando informe: Liquidaciones NDF
+Informe 'Liquidaciones NDF' solicitado.
+Confirmación posterior a descarga realizada.
+Buscando informe: Intereses de Deuda
+Informe 'Intereses de Deuda' solicitado.
+Confirmación posterior a descarga realizada.
+Ya existe un archivo 'Detalle_Swap' este mes. Se omite la descarga.
+Aplicación cerrada.
+
+2025-09-01 12:41:13,621 - INFO - Ejecutando caja_semanal_limpieza.py...
+2025-09-01 12:41:33,456 - INFO - caja_semanal_limpieza.py ejecutado correctamente
+2025-09-01 12:41:33,456 - INFO - Ejecutando caja_semanal_tipodecambio.py...
+2025-09-01 12:41:39,339 - ERROR - Error al ejecutar caja_semanal_tipodecambio.py
+2025-09-01 12:41:39,339 - ERROR - Código de salida: 1
+2025-09-01 12:41:39,339 - ERROR - Salida estándar: Tasa de cambio EUR/USD: 1.1715
+Tasa de cambio USD/COP: 4018.41
+
+Último dato EUR/USD:
+1.1715
+
+Último dato USD/COP:
+4018.41
+
+2025-09-01 12:41:39,339 - ERROR - Error estándar: C:\Users\ntorreslo\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py:1099: InsecureRequestWarning: Unverified HTTPS request is being made to host 'data-api.ecb.europa.eu'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\ntorreslo\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py:1099: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.superfinanciera.gov.co'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+Traceback (most recent call last):
+  File "c:\Users\ntorreslo\OneDrive - Telefonica\Documentos\Research\Modelos\Automatizaciones\Infisa\Caja semanal\caja_semanal_tipodecambio.py", line 73, in <module>
+    wb = load_workbook(plantilla_destino)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ntorreslo\AppData\Local\Programs\Python\Python312\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ntorreslo\AppData\Local\Programs\Python\Python312\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ntorreslo\AppData\Local\Programs\Python\Python312\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ntorreslo\AppData\Local\Programs\Python\Python312\Lib\zipfile\__init__.py", line 1331, in __init__
+    self.fp = io.open(file, filemode)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.235.35\\GerenciaMercadoCapitales\\02_Riesgo_Deuda\\01_Back_Office\\2_Proyección_de_Caja\\2025\\8. Agosto\\010925\\Proyección de caja 010925.xlsx'
+
+2025-09-01 12:41:39,339 - ERROR - Falló la ejecución de caja_semanal_tipodecambio.py. Deteniendo proceso.
+2025-09-01 12:41:39,355 - INFO - === RESUMEN DE EJECUCIÓN ===
+2025-09-01 12:41:39,356 - INFO - Scripts ejecutados exitosamente: 2
+2025-09-01 12:41:39,358 - INFO - Scripts fallidos: 1
+2025-09-01 12:41:39,360 - INFO - Tiempo total de ejecución: 3 minutos y 10 segundos
+2025-09-01 12:41:39,361 - ERROR - Proceso completado con errores
+2025-09-01 14:24:31,276 - INFO - === INICIANDO PROCESAMIENTO DE PROYECCIÓN DE CAJA ===
+2025-09-01 14:24:31,283 - INFO - Fecha actual: 010925
+2025-09-01 14:24:31,284 - INFO - Carpeta destino: \\192.168.235.35\GerenciaMercadoCapitales\02_Riesgo_Deuda\01_Back_Office\2_Proyección_de_Caja\2025\9. Septiembre\010925
+2025-09-01 14:24:31,337 - INFO - Carpeta creada: \\192.168.235.35\GerenciaMercadoCapitales\02_Riesgo_Deuda\01_Back_Office\2_Proyección_de_Caja\2025\9. Septiembre\010925
+2025-09-01 14:24:31,338 - INFO - Prefijos a procesar: ['Liquidaciones_NDF', 'Intereses_de_Deuda', 'Detalle_Swap', 'NDF_Vigentes_y_Vtos']
+2025-09-01 14:24:31,358 - INFO - Archivo más reciente encontrado: Liquidaciones_NDF_301937710.xlsx
+2025-09-01 14:24:31,508 - INFO - Archivo 'Liquidaciones_NDF_301937710.xlsx' copiado exitosamente
+2025-09-01 14:24:31,528 - INFO - Archivo más reciente encontrado: Intereses_de_Deuda_153692431.xlsx
+2025-09-01 14:24:31,690 - INFO - Archivo 'Intereses_de_Deuda_153692431.xlsx' copiado exitosamente
+2025-09-01 14:24:31,700 - INFO - Archivo más reciente encontrado: Detalle_Swap_1748968864.xlsx
+2025-09-01 14:24:31,842 - INFO - Archivo 'Detalle_Swap_1748968864.xlsx' copiado exitosamente
+2025-09-01 14:24:31,864 - INFO - Archivo más reciente encontrado: NDF_Vigentes_y_Vtos_429527832.xlsx
+2025-09-01 14:24:32,037 - INFO - Archivo 'NDF_Vigentes_y_Vtos_429527832.xlsx' copiado exitosamente
+2025-09-01 14:24:32,037 - INFO - Archivos copiados: 4
+2025-09-01 14:24:34,922 - INFO - Plantilla de Excel copiada
+2025-09-01 14:24:35,156 - INFO - Plantilla renombrada correctamente
+2025-09-01 14:24:40,872 - INFO - Archivo Excel abierto para procesamiento
+2025-09-01 14:24:40,887 - INFO - Archivo más reciente encontrado: Liquidaciones_NDF_301937710.xlsx
+2025-09-01 14:24:40,936 - INFO - DataFrame escrito en hoja 'NDF_data': 35 filas
+2025-09-01 14:24:40,936 - INFO - DataFrame escrito en hoja 'Fecha_NDF': 3 filas
+2025-09-01 14:24:40,936 - INFO - Liquidaciones NDF procesadas correctamente
+2025-09-01 14:24:40,936 - INFO - Archivo más reciente encontrado: NDF_Vigentes_y_Vtos_429527832.xlsx
+2025-09-01 14:24:40,992 - INFO - DataFrame escrito en hoja 'Clasificacion_NDF': 35 filas
+2025-09-01 14:24:40,993 - INFO - NDF Vigentes y Vencimientos procesados correctamente
+2025-09-01 14:24:41,003 - INFO - Archivo más reciente encontrado: Intereses_de_Deuda_153692431.xlsx
+2025-09-01 14:24:41,021 - INFO - DataFrame escrito en hoja 'Deuda_data': 10 filas
+2025-09-01 14:24:41,023 - INFO - Intereses de Deuda procesados correctamente
+2025-09-01 14:24:41,024 - INFO - Archivo más reciente encontrado: Detalle_Swap_1748968864.xlsx
+2025-09-01 14:24:41,182 - INFO - DataFrame escrito en hoja 'SWAPS_data': 2 filas
+2025-09-01 14:24:41,182 - INFO - DataFrame escrito en hoja 'Fecha_Swap': 1 filas
+2025-09-01 14:24:41,182 - INFO - Detalle Swap procesado correctamente
+2025-09-01 14:24:43,401 - INFO - Archivo Excel actualizado y guardado correctamente
+2025-09-01 14:24:43,402 - INFO - === PROCESAMIENTO COMPLETADO EXITOSAMENTE ===
+2025-09-01 14:30:09,742 - ERROR - Connection to the client is lost! Shutting down the server.

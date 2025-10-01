@@ -36,7 +36,7 @@ class Config:
         
         # Rutas
         self.PATH_FILES = Path(r"C:\Users\ntorreslo\Downloads")
-        self.DESTINO_BASE = Path(r"\\192.168.235.35\GerenciaMercadoCapitales\02_Riesgo_Deuda\01_Back_Office\2_Proyección_de_Caja\2025\8. Agosto")
+        self.DESTINO_BASE = Path(r"\\192.168.235.35\GerenciaMercadoCapitales\02_Riesgo_Deuda\01_Back_Office\2_Proyección_de_Caja\2025\10. Octubre")
         self.TEMPLATE_EXCEL = Path(r"\\192.168.235.35\GerenciaMercadoCapitales\02_Riesgo_Deuda\01_Back_Office\2_Proyección_de_Caja\Plantilla Proyección de caja.xlsx")
         self.carpeta_destino = self.DESTINO_BASE / self.fecha_actual
         

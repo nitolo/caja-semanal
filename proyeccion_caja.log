@@ -1,0 +1,301 @@
+2025-08-21 12:45:20,800 - INFO - === INICIANDO PROCESAMIENTO DE PROYECCIÓN DE CAJA ===
+2025-08-21 12:45:20,816 - INFO - Fecha actual: 210825
+2025-08-21 12:45:20,816 - INFO - Carpeta destino: \\192.168.235.35\GerenciaMercadoCapitales\02_Riesgo_Deuda\01_Back_Office\2_Proyección_de_Caja\2025\8. Agosto\210825
+2025-08-21 12:45:20,973 - INFO - Carpeta creada: \\192.168.235.35\GerenciaMercadoCapitales\02_Riesgo_Deuda\01_Back_Office\2_Proyección_de_Caja\2025\8. Agosto\210825
+2025-08-21 12:45:20,973 - INFO - Prefijos a procesar: ['Liquidaciones_NDF', 'Intereses_de_Deuda', 'Detalle_Swap', 'NDF_Vigentes_y_Vtos']
+2025-08-21 12:45:20,988 - INFO - Archivo más reciente encontrado: Liquidaciones_NDF_163835505.xlsx
+2025-08-21 12:45:21,227 - INFO - Archivo 'Liquidaciones_NDF_163835505.xlsx' copiado exitosamente
+2025-08-21 12:45:21,255 - INFO - Archivo más reciente encontrado: Intereses_de_Deuda_1233616316.xlsx
+2025-08-21 12:45:21,506 - INFO - Archivo 'Intereses_de_Deuda_1233616316.xlsx' copiado exitosamente
+2025-08-21 12:45:21,528 - INFO - Archivo más reciente encontrado: Detalle_Swap_250987984.xlsx
+2025-08-21 12:45:21,773 - INFO - Archivo 'Detalle_Swap_250987984.xlsx' copiado exitosamente
+2025-08-21 12:45:21,788 - INFO - Archivo más reciente encontrado: NDF_Vigentes_y_Vtos_1935914147.xlsx
+2025-08-21 12:45:22,072 - INFO - Archivo 'NDF_Vigentes_y_Vtos_1935914147.xlsx' copiado exitosamente
+2025-08-21 12:45:22,072 - INFO - Archivos copiados: 4
+2025-08-21 12:45:22,888 - INFO - Plantilla de Excel copiada
+2025-08-21 12:45:23,092 - INFO - Plantilla renombrada correctamente
+2025-08-21 12:45:31,710 - INFO - Archivo Excel abierto para procesamiento
+2025-08-21 12:45:31,725 - INFO - Archivo más reciente encontrado: Liquidaciones_NDF_163835505.xlsx
+2025-08-21 12:45:31,792 - INFO - DataFrame escrito en hoja 'NDF_data': 42 filas
+2025-08-21 12:45:31,793 - INFO - DataFrame escrito en hoja 'Fecha_NDF': 4 filas
+2025-08-21 12:45:31,793 - INFO - Liquidaciones NDF procesadas correctamente
+2025-08-21 12:45:31,797 - INFO - Archivo más reciente encontrado: NDF_Vigentes_y_Vtos_1935914147.xlsx
+2025-08-21 12:45:31,852 - INFO - DataFrame escrito en hoja 'Clasificacion_NDF': 42 filas
+2025-08-21 12:45:31,852 - INFO - NDF Vigentes y Vencimientos procesados correctamente
+2025-08-21 12:45:31,860 - INFO - Archivo más reciente encontrado: Intereses_de_Deuda_1233616316.xlsx
+2025-08-21 12:45:31,891 - INFO - DataFrame escrito en hoja 'Deuda_data': 13 filas
+2025-08-21 12:45:31,891 - INFO - Intereses de Deuda procesados correctamente
+2025-08-21 12:45:31,891 - INFO - Archivo más reciente encontrado: Detalle_Swap_250987984.xlsx
+2025-08-21 12:45:32,054 - INFO - DataFrame escrito en hoja 'SWAPS_data': 4 filas
+2025-08-21 12:45:32,054 - INFO - DataFrame escrito en hoja 'Fecha_Swap': 2 filas
+2025-08-21 12:45:32,054 - INFO - Detalle Swap procesado correctamente
+2025-08-21 12:45:34,180 - INFO - Archivo Excel actualizado y guardado correctamente
+2025-08-21 12:45:34,181 - INFO - === PROCESAMIENTO COMPLETADO EXITOSAMENTE ===
+2025-08-25 17:15:34,211 - INFO - === INICIANDO PROCESAMIENTO DE PROYECCIÓN DE CAJA ===
+2025-08-25 17:15:34,211 - INFO - Fecha actual: 250825
+2025-08-25 17:15:34,211 - INFO - Carpeta destino: \\192.168.235.35\GerenciaMercadoCapitales\02_Riesgo_Deuda\01_Back_Office\2_Proyección_de_Caja\2025\8. Agosto\250825
+2025-08-25 17:15:34,305 - INFO - Carpeta creada: \\192.168.235.35\GerenciaMercadoCapitales\02_Riesgo_Deuda\01_Back_Office\2_Proyección_de_Caja\2025\8. Agosto\250825
+2025-08-25 17:15:34,305 - INFO - Prefijos a procesar: ['Liquidaciones_NDF', 'Intereses_de_Deuda', 'Detalle_Swap', 'NDF_Vigentes_y_Vtos']
+2025-08-25 17:15:34,325 - INFO - Archivo más reciente encontrado: Liquidaciones_NDF_1031733693.xlsx
+2025-08-25 17:15:34,510 - INFO - Archivo 'Liquidaciones_NDF_1031733693.xlsx' copiado exitosamente
+2025-08-25 17:15:34,525 - INFO - Archivo más reciente encontrado: Intereses_de_Deuda_283197513.xlsx
+2025-08-25 17:15:34,682 - INFO - Archivo 'Intereses_de_Deuda_283197513.xlsx' copiado exitosamente
+2025-08-25 17:15:34,703 - INFO - Archivo más reciente encontrado: Detalle_Swap_250987984.xlsx
+2025-08-25 17:15:34,871 - INFO - Archivo 'Detalle_Swap_250987984.xlsx' copiado exitosamente
+2025-08-25 17:15:34,871 - INFO - Archivo más reciente encontrado: NDF_Vigentes_y_Vtos_1935914147.xlsx
+2025-08-25 17:15:35,155 - INFO - Archivo 'NDF_Vigentes_y_Vtos_1935914147.xlsx' copiado exitosamente
+2025-08-25 17:15:35,155 - INFO - Archivos copiados: 4
+2025-08-25 17:15:35,563 - INFO - Plantilla de Excel copiada
+2025-08-25 17:15:35,727 - INFO - Plantilla renombrada correctamente
+2025-08-25 17:15:40,376 - INFO - Archivo Excel abierto para procesamiento
+2025-08-25 17:15:40,392 - INFO - Archivo más reciente encontrado: Liquidaciones_NDF_1031733693.xlsx
+2025-08-25 17:15:40,439 - INFO - DataFrame escrito en hoja 'NDF_data': 42 filas
+2025-08-25 17:15:40,439 - INFO - DataFrame escrito en hoja 'Fecha_NDF': 4 filas
+2025-08-25 17:15:40,439 - INFO - Liquidaciones NDF procesadas correctamente
+2025-08-25 17:15:40,439 - INFO - Archivo más reciente encontrado: NDF_Vigentes_y_Vtos_1935914147.xlsx
+2025-08-25 17:15:40,471 - INFO - DataFrame escrito en hoja 'Clasificacion_NDF': 42 filas
+2025-08-25 17:15:40,471 - INFO - NDF Vigentes y Vencimientos procesados correctamente
+2025-08-25 17:15:40,486 - INFO - Archivo más reciente encontrado: Intereses_de_Deuda_283197513.xlsx
+2025-08-25 17:15:40,502 - INFO - DataFrame escrito en hoja 'Deuda_data': 13 filas
+2025-08-25 17:15:40,502 - INFO - Intereses de Deuda procesados correctamente
+2025-08-25 17:15:40,517 - INFO - Archivo más reciente encontrado: Detalle_Swap_250987984.xlsx
+2025-08-25 17:15:40,637 - INFO - DataFrame escrito en hoja 'SWAPS_data': 4 filas
+2025-08-25 17:15:40,637 - INFO - DataFrame escrito en hoja 'Fecha_Swap': 2 filas
+2025-08-25 17:15:40,637 - INFO - Detalle Swap procesado correctamente
+2025-08-25 17:15:42,729 - INFO - Archivo Excel actualizado y guardado correctamente
+2025-08-25 17:15:42,729 - INFO - === PROCESAMIENTO COMPLETADO EXITOSAMENTE ===
+2025-09-01 12:41:23,054 - INFO - === INICIANDO PROCESAMIENTO DE PROYECCIÓN DE CAJA ===
+2025-09-01 12:41:23,074 - INFO - Fecha actual: 010925
+2025-09-01 12:41:23,074 - INFO - Carpeta destino: \\192.168.235.35\GerenciaMercadoCapitales\02_Riesgo_Deuda\01_Back_Office\2_Proyección_de_Caja\2025\9. Septiembre\010925
+2025-09-01 12:41:23,133 - INFO - Carpeta creada: \\192.168.235.35\GerenciaMercadoCapitales\02_Riesgo_Deuda\01_Back_Office\2_Proyección_de_Caja\2025\9. Septiembre\010925
+2025-09-01 12:41:23,133 - INFO - Prefijos a procesar: ['Liquidaciones_NDF', 'Intereses_de_Deuda', 'Detalle_Swap', 'NDF_Vigentes_y_Vtos']
+2025-09-01 12:41:23,149 - INFO - Archivo más reciente encontrado: Liquidaciones_NDF_936900274.xlsx
+2025-09-01 12:41:23,292 - INFO - Archivo 'Liquidaciones_NDF_936900274.xlsx' copiado exitosamente
+2025-09-01 12:41:23,317 - INFO - Archivo más reciente encontrado: Intereses_de_Deuda_283197513.xlsx
+2025-09-01 12:41:23,498 - INFO - Archivo 'Intereses_de_Deuda_283197513.xlsx' copiado exitosamente
+2025-09-01 12:41:23,498 - INFO - Archivo más reciente encontrado: Detalle_Swap_1748968864.xlsx
+2025-09-01 12:41:23,688 - INFO - Archivo 'Detalle_Swap_1748968864.xlsx' copiado exitosamente
+2025-09-01 12:41:23,688 - INFO - Archivo más reciente encontrado: NDF_Vigentes_y_Vtos_429527832.xlsx
+2025-09-01 12:41:23,854 - INFO - Archivo 'NDF_Vigentes_y_Vtos_429527832.xlsx' copiado exitosamente
+2025-09-01 12:41:23,855 - INFO - Archivos copiados: 4
+2025-09-01 12:41:24,790 - INFO - Plantilla de Excel copiada
+2025-09-01 12:41:24,987 - INFO - Plantilla renombrada correctamente
+2025-09-01 12:41:30,524 - INFO - Archivo Excel abierto para procesamiento
+2025-09-01 12:41:30,540 - INFO - Archivo más reciente encontrado: Liquidaciones_NDF_936900274.xlsx
+2025-09-01 12:41:30,603 - INFO - DataFrame escrito en hoja 'NDF_data': 35 filas
+2025-09-01 12:41:30,603 - INFO - DataFrame escrito en hoja 'Fecha_NDF': 3 filas
+2025-09-01 12:41:30,603 - INFO - Liquidaciones NDF procesadas correctamente
+2025-09-01 12:41:30,618 - INFO - Archivo más reciente encontrado: NDF_Vigentes_y_Vtos_429527832.xlsx
+2025-09-01 12:41:30,666 - INFO - DataFrame escrito en hoja 'Clasificacion_NDF': 35 filas
+2025-09-01 12:41:30,666 - INFO - NDF Vigentes y Vencimientos procesados correctamente
+2025-09-01 12:41:30,666 - INFO - Archivo más reciente encontrado: Intereses_de_Deuda_283197513.xlsx
+2025-09-01 12:41:30,681 - INFO - DataFrame escrito en hoja 'Deuda_data': 13 filas
+2025-09-01 12:41:30,681 - INFO - Intereses de Deuda procesados correctamente
+2025-09-01 12:41:30,697 - INFO - Archivo más reciente encontrado: Detalle_Swap_1748968864.xlsx
+2025-09-01 12:41:30,843 - INFO - DataFrame escrito en hoja 'SWAPS_data': 2 filas
+2025-09-01 12:41:30,843 - INFO - DataFrame escrito en hoja 'Fecha_Swap': 1 filas
+2025-09-01 12:41:30,843 - INFO - Detalle Swap procesado correctamente
+2025-09-01 12:41:33,071 - INFO - Archivo Excel actualizado y guardado correctamente
+2025-09-01 12:41:33,071 - INFO - === PROCESAMIENTO COMPLETADO EXITOSAMENTE ===
+2025-09-05 10:26:04,942 - INFO - === INICIANDO PROCESAMIENTO DE PROYECCIÓN DE CAJA ===
+2025-09-05 10:26:04,979 - INFO - Fecha actual: 050925
+2025-09-05 10:26:04,979 - INFO - Carpeta destino: \\192.168.235.35\GerenciaMercadoCapitales\02_Riesgo_Deuda\01_Back_Office\2_Proyección_de_Caja\2025\9. Septiembre\050925
+2025-09-05 10:26:05,250 - INFO - Carpeta creada: \\192.168.235.35\GerenciaMercadoCapitales\02_Riesgo_Deuda\01_Back_Office\2_Proyección_de_Caja\2025\9. Septiembre\050925
+2025-09-05 10:26:05,250 - INFO - Prefijos a procesar: ['Liquidaciones_NDF', 'Intereses_de_Deuda', 'Detalle_Swap', 'NDF_Vigentes_y_Vtos']
+2025-09-05 10:26:05,278 - INFO - Archivo más reciente encontrado: Liquidaciones_NDF_1653327270.xlsx
+2025-09-05 10:26:05,939 - INFO - Archivo 'Liquidaciones_NDF_1653327270.xlsx' copiado exitosamente
+2025-09-05 10:26:05,961 - INFO - Archivo más reciente encontrado: Intereses_de_Deuda_1072236708.xlsx
+2025-09-05 10:26:06,554 - INFO - Archivo 'Intereses_de_Deuda_1072236708.xlsx' copiado exitosamente
+2025-09-05 10:26:06,570 - INFO - Archivo más reciente encontrado: Detalle_Swap_394089887.xlsx
+2025-09-05 10:26:07,260 - INFO - Archivo 'Detalle_Swap_394089887.xlsx' copiado exitosamente
+2025-09-05 10:26:07,274 - INFO - Archivo más reciente encontrado: NDF_Vigentes_y_Vtos_429527832.xlsx
+2025-09-05 10:26:07,890 - INFO - Archivo 'NDF_Vigentes_y_Vtos_429527832.xlsx' copiado exitosamente
+2025-09-05 10:26:07,895 - INFO - Archivos copiados: 4
+2025-09-05 10:26:09,098 - INFO - Plantilla de Excel copiada
+2025-09-05 10:26:09,465 - INFO - Plantilla renombrada correctamente
+2025-09-05 10:26:14,295 - INFO - Archivo Excel abierto para procesamiento
+2025-09-05 10:26:14,309 - INFO - Archivo más reciente encontrado: Liquidaciones_NDF_1653327270.xlsx
+2025-09-05 10:26:14,417 - INFO - DataFrame escrito en hoja 'NDF_data': 134 filas
+2025-09-05 10:26:14,419 - INFO - DataFrame escrito en hoja 'Fecha_NDF': 19 filas
+2025-09-05 10:26:14,421 - INFO - Liquidaciones NDF procesadas correctamente
+2025-09-05 10:26:14,429 - INFO - Archivo más reciente encontrado: NDF_Vigentes_y_Vtos_429527832.xlsx
+2025-09-05 10:26:14,488 - INFO - DataFrame escrito en hoja 'Clasificacion_NDF': 134 filas
+2025-09-05 10:26:14,489 - INFO - NDF Vigentes y Vencimientos procesados correctamente
+2025-09-05 10:26:14,507 - INFO - Archivo más reciente encontrado: Intereses_de_Deuda_1072236708.xlsx
+2025-09-05 10:26:14,539 - INFO - DataFrame escrito en hoja 'Deuda_data': 51 filas
+2025-09-05 10:26:14,540 - INFO - Intereses de Deuda procesados correctamente
+2025-09-05 10:26:14,552 - INFO - Archivo más reciente encontrado: Detalle_Swap_394089887.xlsx
+2025-09-05 10:26:14,900 - INFO - DataFrame escrito en hoja 'SWAPS_data': 2 filas
+2025-09-05 10:26:14,901 - INFO - DataFrame escrito en hoja 'Fecha_Swap': 1 filas
+2025-09-05 10:26:14,903 - INFO - Detalle Swap procesado correctamente
+2025-09-05 10:26:17,390 - INFO - Archivo Excel actualizado y guardado correctamente
+2025-09-05 10:26:17,399 - INFO - === PROCESAMIENTO COMPLETADO EXITOSAMENTE ===
+2025-09-05 10:39:55,566 - ERROR - Connection to the client is lost! Shutting down the server.
+2025-09-16 12:56:34,886 - INFO - === INICIANDO PROCESAMIENTO DE PROYECCIÓN DE CAJA ===
+2025-09-16 12:56:34,903 - INFO - Fecha actual: 160925
+2025-09-16 12:56:34,904 - INFO - Carpeta destino: \\192.168.235.35\GerenciaMercadoCapitales\02_Riesgo_Deuda\01_Back_Office\2_Proyección_de_Caja\2025\9. Septiembre\160925
+2025-09-16 12:56:35,311 - INFO - Carpeta creada: \\192.168.235.35\GerenciaMercadoCapitales\02_Riesgo_Deuda\01_Back_Office\2_Proyección_de_Caja\2025\9. Septiembre\160925
+2025-09-16 12:56:35,313 - INFO - Prefijos a procesar: ['Liquidaciones_NDF', 'Intereses_de_Deuda', 'Detalle_Swap', 'NDF_Vigentes_y_Vtos']
+2025-09-16 12:56:35,348 - INFO - Archivo más reciente encontrado: Liquidaciones_NDF_433113530.xlsx
+2025-09-16 12:56:36,075 - INFO - Archivo 'Liquidaciones_NDF_433113530.xlsx' copiado exitosamente
+2025-09-16 12:56:36,109 - INFO - Archivo más reciente encontrado: Intereses_de_Deuda_624610546.xlsx
+2025-09-16 12:56:37,286 - INFO - Archivo 'Intereses_de_Deuda_624610546.xlsx' copiado exitosamente
+2025-09-16 12:56:37,313 - INFO - Archivo más reciente encontrado: Detalle_Swap_394089887.xlsx
+2025-09-16 12:56:38,367 - INFO - Archivo 'Detalle_Swap_394089887.xlsx' copiado exitosamente
+2025-09-16 12:56:38,390 - INFO - Archivo más reciente encontrado: NDF_Vigentes_y_Vtos_429527832.xlsx
+2025-09-16 12:56:39,259 - INFO - Archivo 'NDF_Vigentes_y_Vtos_429527832.xlsx' copiado exitosamente
+2025-09-16 12:56:39,263 - INFO - Archivos copiados: 4
+2025-09-16 12:56:41,856 - INFO - Plantilla de Excel copiada
+2025-09-16 12:56:42,215 - INFO - Plantilla renombrada correctamente
+2025-09-16 12:56:52,648 - INFO - Archivo Excel abierto para procesamiento
+2025-09-16 12:56:52,685 - INFO - Archivo más reciente encontrado: Liquidaciones_NDF_433113530.xlsx
+2025-09-16 12:56:52,801 - INFO - DataFrame escrito en hoja 'NDF_data': 35 filas
+2025-09-16 12:56:52,801 - INFO - DataFrame escrito en hoja 'Fecha_NDF': 3 filas
+2025-09-16 12:56:52,801 - INFO - Liquidaciones NDF procesadas correctamente
+2025-09-16 12:56:52,823 - INFO - Archivo más reciente encontrado: NDF_Vigentes_y_Vtos_429527832.xlsx
+2025-09-16 12:56:52,897 - INFO - DataFrame escrito en hoja 'Clasificacion_NDF': 35 filas
+2025-09-16 12:56:52,900 - INFO - NDF Vigentes y Vencimientos procesados correctamente
+2025-09-16 12:56:52,929 - INFO - Archivo más reciente encontrado: Intereses_de_Deuda_624610546.xlsx
+2025-09-16 12:56:52,970 - INFO - DataFrame escrito en hoja 'Deuda_data': 10 filas
+2025-09-16 12:56:52,974 - INFO - Intereses de Deuda procesados correctamente
+2025-09-16 12:56:52,980 - INFO - Archivo más reciente encontrado: Detalle_Swap_394089887.xlsx
+2025-09-16 12:56:53,246 - INFO - DataFrame escrito en hoja 'SWAPS_data': 2 filas
+2025-09-16 12:56:53,249 - INFO - DataFrame escrito en hoja 'Fecha_Swap': 1 filas
+2025-09-16 12:56:53,250 - INFO - Detalle Swap procesado correctamente
+2025-09-16 12:56:58,229 - INFO - Archivo Excel actualizado y guardado correctamente
+2025-09-16 12:56:58,229 - INFO - === PROCESAMIENTO COMPLETADO EXITOSAMENTE ===
+2025-09-16 15:13:01,840 - ERROR - Connection to the client is lost! Shutting down the server.
+2025-09-25 16:25:54,268 - INFO - === INICIANDO PROCESAMIENTO DE PROYECCIÓN DE CAJA ===
+2025-09-25 16:25:54,275 - INFO - Fecha actual: 250925
+2025-09-25 16:25:54,276 - INFO - Carpeta destino: \\192.168.235.35\GerenciaMercadoCapitales\02_Riesgo_Deuda\01_Back_Office\2_Proyección_de_Caja\2025\9. Septiembre\250925
+2025-09-25 16:25:55,154 - INFO - Carpeta creada: \\192.168.235.35\GerenciaMercadoCapitales\02_Riesgo_Deuda\01_Back_Office\2_Proyección_de_Caja\2025\9. Septiembre\250925
+2025-09-25 16:25:55,156 - INFO - Prefijos a procesar: ['Liquidaciones_NDF', 'Intereses_de_Deuda', 'Detalle_Swap', 'NDF_Vigentes_y_Vtos']
+2025-09-25 16:25:55,177 - INFO - Archivo más reciente encontrado: Liquidaciones_NDF_1056528360.xlsx
+2025-09-25 16:25:56,077 - INFO - Archivo 'Liquidaciones_NDF_1056528360.xlsx' copiado exitosamente
+2025-09-25 16:25:56,105 - INFO - Archivo más reciente encontrado: Intereses_de_Deuda_1803997826.xlsx
+2025-09-25 16:25:57,336 - INFO - Archivo 'Intereses_de_Deuda_1803997826.xlsx' copiado exitosamente
+2025-09-25 16:25:57,354 - INFO - Archivo más reciente encontrado: Detalle_Swap_394089887.xlsx
+2025-09-25 16:25:58,794 - INFO - Archivo 'Detalle_Swap_394089887.xlsx' copiado exitosamente
+2025-09-25 16:25:58,801 - INFO - Archivo más reciente encontrado: NDF_Vigentes_y_Vtos_429527832.xlsx
+2025-09-25 16:26:03,139 - INFO - Archivo 'NDF_Vigentes_y_Vtos_429527832.xlsx' copiado exitosamente
+2025-09-25 16:26:03,141 - INFO - Archivos copiados: 4
+2025-09-25 16:26:36,504 - INFO - Plantilla de Excel copiada
+2025-09-25 16:26:38,039 - INFO - Plantilla renombrada correctamente
+2025-09-25 16:27:13,587 - INFO - Archivo Excel abierto para procesamiento
+2025-09-25 16:27:13,604 - INFO - Archivo más reciente encontrado: Liquidaciones_NDF_1056528360.xlsx
+2025-09-25 16:27:13,655 - INFO - DataFrame escrito en hoja 'NDF_data': 27 filas
+2025-09-25 16:27:13,657 - INFO - DataFrame escrito en hoja 'Fecha_NDF': 2 filas
+2025-09-25 16:27:13,659 - INFO - Liquidaciones NDF procesadas correctamente
+2025-09-25 16:27:13,664 - INFO - Archivo más reciente encontrado: NDF_Vigentes_y_Vtos_429527832.xlsx
+2025-09-25 16:27:13,706 - INFO - DataFrame escrito en hoja 'Clasificacion_NDF': 27 filas
+2025-09-25 16:27:13,707 - INFO - NDF Vigentes y Vencimientos procesados correctamente
+2025-09-25 16:27:13,717 - INFO - Archivo más reciente encontrado: Intereses_de_Deuda_1803997826.xlsx
+2025-09-25 16:27:13,736 - INFO - DataFrame escrito en hoja 'Deuda_data': 12 filas
+2025-09-25 16:27:13,737 - INFO - Intereses de Deuda procesados correctamente
+2025-09-25 16:27:13,746 - INFO - Archivo más reciente encontrado: Detalle_Swap_394089887.xlsx
+2025-09-25 16:27:14,055 - INFO - DataFrame escrito en hoja 'SWAPS_data': 2 filas
+2025-09-25 16:27:14,056 - INFO - DataFrame escrito en hoja 'Fecha_Swap': 1 filas
+2025-09-25 16:27:14,057 - INFO - Detalle Swap procesado correctamente
+2025-09-25 16:27:16,502 - INFO - Archivo Excel actualizado y guardado correctamente
+2025-09-25 16:27:16,504 - INFO - === PROCESAMIENTO COMPLETADO EXITOSAMENTE ===
+2025-09-25 16:48:09,056 - ERROR - Connection to the client is lost! Shutting down the server.
+2025-09-30 15:39:55,361 - INFO - === INICIANDO PROCESAMIENTO DE PROYECCIÓN DE CAJA ===
+2025-09-30 15:39:55,382 - INFO - Fecha actual: 300925
+2025-09-30 15:39:55,384 - INFO - Carpeta destino: \\192.168.235.35\GerenciaMercadoCapitales\02_Riesgo_Deuda\01_Back_Office\2_Proyección_de_Caja\2025\9. Septiembre\300925
+2025-09-30 15:39:55,526 - INFO - Carpeta creada: \\192.168.235.35\GerenciaMercadoCapitales\02_Riesgo_Deuda\01_Back_Office\2_Proyección_de_Caja\2025\9. Septiembre\300925
+2025-09-30 15:39:55,526 - INFO - Prefijos a procesar: ['Liquidaciones_NDF', 'Intereses_de_Deuda', 'Detalle_Swap', 'NDF_Vigentes_y_Vtos']
+2025-09-30 15:39:55,547 - INFO - Archivo más reciente encontrado: Liquidaciones_NDF_999488880.xlsx
+2025-09-30 15:39:55,876 - INFO - Archivo 'Liquidaciones_NDF_999488880.xlsx' copiado exitosamente
+2025-09-30 15:39:55,902 - INFO - Archivo más reciente encontrado: Intereses_de_Deuda_1411291881.xlsx
+2025-09-30 15:39:56,225 - INFO - Archivo 'Intereses_de_Deuda_1411291881.xlsx' copiado exitosamente
+2025-09-30 15:39:56,238 - INFO - Archivo más reciente encontrado: Detalle_Swap_394089887.xlsx
+2025-09-30 15:39:56,767 - INFO - Archivo 'Detalle_Swap_394089887.xlsx' copiado exitosamente
+2025-09-30 15:39:56,794 - INFO - Archivo más reciente encontrado: NDF_Vigentes_y_Vtos_429527832.xlsx
+2025-09-30 15:39:57,255 - INFO - Archivo 'NDF_Vigentes_y_Vtos_429527832.xlsx' copiado exitosamente
+2025-09-30 15:39:57,255 - INFO - Archivos copiados: 4
+2025-09-30 15:39:58,480 - INFO - Plantilla de Excel copiada
+2025-09-30 15:39:58,900 - INFO - Plantilla renombrada correctamente
+2025-09-30 15:40:04,177 - INFO - Archivo Excel abierto para procesamiento
+2025-09-30 15:40:04,206 - INFO - Archivo más reciente encontrado: Liquidaciones_NDF_999488880.xlsx
+2025-09-30 15:40:04,253 - INFO - DataFrame escrito en hoja 'NDF_data': 27 filas
+2025-09-30 15:40:04,254 - INFO - DataFrame escrito en hoja 'Fecha_NDF': 2 filas
+2025-09-30 15:40:04,255 - INFO - Liquidaciones NDF procesadas correctamente
+2025-09-30 15:40:04,261 - INFO - Archivo más reciente encontrado: NDF_Vigentes_y_Vtos_429527832.xlsx
+2025-09-30 15:40:04,308 - INFO - DataFrame escrito en hoja 'Clasificacion_NDF': 27 filas
+2025-09-30 15:40:04,309 - INFO - NDF Vigentes y Vencimientos procesados correctamente
+2025-09-30 15:40:04,324 - INFO - Archivo más reciente encontrado: Intereses_de_Deuda_1411291881.xlsx
+2025-09-30 15:40:04,341 - INFO - DataFrame escrito en hoja 'Deuda_data': 12 filas
+2025-09-30 15:40:04,341 - INFO - Intereses de Deuda procesados correctamente
+2025-09-30 15:40:04,360 - INFO - Archivo más reciente encontrado: Detalle_Swap_394089887.xlsx
+2025-09-30 15:40:04,514 - INFO - DataFrame escrito en hoja 'SWAPS_data': 2 filas
+2025-09-30 15:40:04,516 - INFO - DataFrame escrito en hoja 'Fecha_Swap': 1 filas
+2025-09-30 15:40:04,517 - INFO - Detalle Swap procesado correctamente
+2025-09-30 15:40:07,223 - INFO - Archivo Excel actualizado y guardado correctamente
+2025-09-30 15:40:07,223 - INFO - === PROCESAMIENTO COMPLETADO EXITOSAMENTE ===
+2025-09-30 15:41:14,718 - ERROR - Connection to the client is lost! Shutting down the server.
+2025-09-30 16:13:33,475 - INFO - === INICIANDO PROCESAMIENTO DE PROYECCIÓN DE CAJA ===
+2025-09-30 16:13:33,494 - INFO - Fecha actual: 300925
+2025-09-30 16:13:33,501 - INFO - Carpeta destino: \\192.168.235.35\GerenciaMercadoCapitales\02_Riesgo_Deuda\01_Back_Office\2_Proyección_de_Caja\2025\9. Septiembre\300925
+2025-09-30 16:13:33,713 - INFO - Carpeta creada: \\192.168.235.35\GerenciaMercadoCapitales\02_Riesgo_Deuda\01_Back_Office\2_Proyección_de_Caja\2025\9. Septiembre\300925
+2025-09-30 16:13:33,714 - INFO - Prefijos a procesar: ['Liquidaciones_NDF', 'Intereses_de_Deuda', 'Detalle_Swap', 'NDF_Vigentes_y_Vtos']
+2025-09-30 16:13:33,736 - INFO - Archivo más reciente encontrado: Liquidaciones_NDF_1519867265.xlsx
+2025-09-30 16:13:34,156 - INFO - Archivo 'Liquidaciones_NDF_1519867265.xlsx' copiado exitosamente
+2025-09-30 16:13:34,178 - INFO - Archivo más reciente encontrado: Intereses_de_Deuda_430658198.xlsx
+2025-09-30 16:13:34,666 - INFO - Archivo 'Intereses_de_Deuda_430658198.xlsx' copiado exitosamente
+2025-09-30 16:13:34,677 - INFO - Archivo más reciente encontrado: Detalle_Swap_1553396595.xlsx
+2025-09-30 16:13:35,198 - INFO - Archivo 'Detalle_Swap_1553396595.xlsx' copiado exitosamente
+2025-09-30 16:13:35,207 - INFO - Archivo más reciente encontrado: NDF_Vigentes_y_Vtos_669382403.xlsx
+2025-09-30 16:13:35,644 - INFO - Archivo 'NDF_Vigentes_y_Vtos_669382403.xlsx' copiado exitosamente
+2025-09-30 16:13:35,645 - INFO - Archivos copiados: 4
+2025-09-30 16:13:36,413 - INFO - Plantilla de Excel copiada
+2025-09-30 16:13:36,723 - INFO - Plantilla renombrada correctamente
+2025-09-30 16:13:41,337 - INFO - Archivo Excel abierto para procesamiento
+2025-09-30 16:13:41,351 - INFO - Archivo más reciente encontrado: Liquidaciones_NDF_1519867265.xlsx
+2025-09-30 16:13:41,395 - INFO - DataFrame escrito en hoja 'NDF_data': 122 filas
+2025-09-30 16:13:41,396 - INFO - DataFrame escrito en hoja 'Fecha_NDF': 16 filas
+2025-09-30 16:13:41,397 - INFO - Liquidaciones NDF procesadas correctamente
+2025-09-30 16:13:41,403 - INFO - Archivo más reciente encontrado: NDF_Vigentes_y_Vtos_669382403.xlsx
+2025-09-30 16:13:41,446 - INFO - DataFrame escrito en hoja 'Clasificacion_NDF': 122 filas
+2025-09-30 16:13:41,447 - INFO - NDF Vigentes y Vencimientos procesados correctamente
+2025-09-30 16:13:41,457 - INFO - Archivo más reciente encontrado: Intereses_de_Deuda_430658198.xlsx
+2025-09-30 16:13:41,478 - INFO - DataFrame escrito en hoja 'Deuda_data': 42 filas
+2025-09-30 16:13:41,478 - INFO - Intereses de Deuda procesados correctamente
+2025-09-30 16:13:41,478 - INFO - Archivo más reciente encontrado: Detalle_Swap_1553396595.xlsx
+2025-09-30 16:13:41,623 - INFO - DataFrame escrito en hoja 'SWAPS_data': 2 filas
+2025-09-30 16:13:41,623 - INFO - DataFrame escrito en hoja 'Fecha_Swap': 1 filas
+2025-09-30 16:13:41,639 - INFO - Detalle Swap procesado correctamente
+2025-09-30 16:13:43,932 - INFO - Archivo Excel actualizado y guardado correctamente
+2025-09-30 16:13:43,934 - INFO - === PROCESAMIENTO COMPLETADO EXITOSAMENTE ===
+2025-09-30 16:21:05,638 - ERROR - Connection to the client is lost! Shutting down the server.
+2025-10-01 15:09:55,185 - INFO - === INICIANDO PROCESAMIENTO DE PROYECCIÓN DE CAJA ===
+2025-10-01 15:09:55,191 - INFO - Fecha actual: 011025
+2025-10-01 15:09:55,195 - INFO - Carpeta destino: \\192.168.235.35\GerenciaMercadoCapitales\02_Riesgo_Deuda\01_Back_Office\2_Proyección_de_Caja\2025\9. Septiembre\011025
+2025-10-01 15:09:55,361 - INFO - Carpeta creada: \\192.168.235.35\GerenciaMercadoCapitales\02_Riesgo_Deuda\01_Back_Office\2_Proyección_de_Caja\2025\9. Septiembre\011025
+2025-10-01 15:09:55,366 - INFO - Prefijos a procesar: ['Liquidaciones_NDF', 'Intereses_de_Deuda', 'Detalle_Swap', 'NDF_Vigentes_y_Vtos']
+2025-10-01 15:09:55,385 - INFO - Archivo más reciente encontrado: Liquidaciones_NDF_2038623922.xlsx
+2025-10-01 15:09:56,055 - INFO - Archivo 'Liquidaciones_NDF_2038623922.xlsx' copiado exitosamente
+2025-10-01 15:09:56,076 - INFO - Archivo más reciente encontrado: Intereses_de_Deuda_1132036652.xlsx
+2025-10-01 15:09:57,250 - INFO - Archivo 'Intereses_de_Deuda_1132036652.xlsx' copiado exitosamente
+2025-10-01 15:09:57,261 - INFO - Archivo más reciente encontrado: Detalle_Swap_730351964.xlsx
+2025-10-01 15:09:57,945 - INFO - Archivo 'Detalle_Swap_730351964.xlsx' copiado exitosamente
+2025-10-01 15:09:57,952 - INFO - Archivo más reciente encontrado: NDF_Vigentes_y_Vtos_476118898.xlsx
+2025-10-01 15:09:58,564 - INFO - Archivo 'NDF_Vigentes_y_Vtos_476118898.xlsx' copiado exitosamente
+2025-10-01 15:09:58,565 - INFO - Archivos copiados: 4
+2025-10-01 15:09:59,477 - INFO - Plantilla de Excel copiada
+2025-10-01 15:09:59,855 - INFO - Plantilla renombrada correctamente
+2025-10-01 15:10:06,429 - INFO - Archivo Excel abierto para procesamiento
+2025-10-01 15:10:06,435 - INFO - Archivo más reciente encontrado: Liquidaciones_NDF_2038623922.xlsx
+2025-10-01 15:10:06,522 - INFO - DataFrame escrito en hoja 'NDF_data': 35 filas
+2025-10-01 15:10:06,525 - INFO - DataFrame escrito en hoja 'Fecha_NDF': 6 filas
+2025-10-01 15:10:06,525 - INFO - Liquidaciones NDF procesadas correctamente
+2025-10-01 15:10:06,532 - INFO - Archivo más reciente encontrado: NDF_Vigentes_y_Vtos_476118898.xlsx
+2025-10-01 15:10:06,637 - INFO - DataFrame escrito en hoja 'Clasificacion_NDF': 35 filas
+2025-10-01 15:10:06,638 - INFO - NDF Vigentes y Vencimientos procesados correctamente
+2025-10-01 15:10:06,655 - INFO - Archivo más reciente encontrado: Intereses_de_Deuda_1132036652.xlsx
+2025-10-01 15:10:06,691 - INFO - DataFrame escrito en hoja 'Deuda_data': 14 filas
+2025-10-01 15:10:06,692 - INFO - Intereses de Deuda procesados correctamente
+2025-10-01 15:10:06,705 - INFO - Archivo más reciente encontrado: Detalle_Swap_730351964.xlsx
+2025-10-01 15:10:06,953 - INFO - DataFrame escrito en hoja 'SWAPS_data': 10 filas
+2025-10-01 15:10:06,955 - INFO - DataFrame escrito en hoja 'Fecha_Swap': 1 filas
+2025-10-01 15:10:06,957 - INFO - Detalle Swap procesado correctamente
+2025-10-01 15:10:11,155 - INFO - Archivo Excel actualizado y guardado correctamente

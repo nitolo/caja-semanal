@@ -16,8 +16,10 @@ ultimo_dia = calendar.monthrange(hoy.year, hoy.month)[1]
 fin_mes = hoy.replace(day=ultimo_dia)
 
 fecha_inicio = inicio_mes.strftime('%d/%m/%Y')
+#fecha_inicio = '01/10/2025'
 fecha_fin = fin_mes.strftime('%d/%m/%Y')
-fecha_swap = '30/06/2025'
+#fecha_fin = '31/12/2025'
+fecha_swap = '30/09/2025'
 
 # ============================================================
 # UTILIDADES DEL SISTEMA
@@ -59,7 +61,7 @@ subprocess.Popen(r"C:\OPEFIN NUEVO\OPEFIN 2.cmd", shell=True)
 
 ensure_capslock_off()
 
-print("Esperando 40 segundos para que la aplicación se cargue...")
+print("Esperando 30 segundos para que la aplicación se cargue...")
 time.sleep(30)
 
 # En esta versión se omite la autenticación de la aplicación
@@ -114,17 +116,17 @@ def descargar_informe(nombre, fecha_ini=None, fecha_fin=None, solo_fecha=False, 
 # ------------------------------------------------------------
 
 pyautogui.click((1252, 309))  # Botón de flecha abajo para consultar todos los Informes de Excel
-descargar_informe(nombre="Liquidaciones NDF", fecha_ini=fecha_inicio, fecha_fin=fecha_fin, tiempo_espera=180)
+descargar_informe(nombre="Liquidaciones NDF", fecha_ini=fecha_inicio, fecha_fin=fecha_fin, tiempo_espera=60)
 
 pyautogui.click((1252, 309))  # Botón de flecha abajo para consultar todos los Informes de Excel
-descargar_informe(nombre="Intereses de Deuda", fecha_ini=fecha_inicio, fecha_fin=fecha_fin, tiempo_espera=15)
+descargar_informe(nombre="Intereses de Deuda", fecha_ini=fecha_inicio, fecha_fin=fecha_fin, tiempo_espera=25)
 
 # Verificar si ya existe el archivo de Detalle Swap
 ruta_descargas = r"C:\Users\ntorreslo\Downloads"
 
 if not ya_existe_detalle_swap(ruta_descargas):
     pyautogui.click((1252, 309))  # Botón de flecha abajo para consultar todos los Informes de Excel
-    descargar_informe(nombre="Detalle Swap", fecha_ini=fecha_swap, solo_fecha=True)
+    descargar_informe(nombre="Detalle Swap", fecha_ini=fecha_swap, solo_fecha=True, tiempo_espera=60)
 else:
     print("Ya existe un archivo 'Detalle_Swap' este mes. Se omite la descarga.")
 
@@ -135,5 +137,6 @@ else:
 pyautogui.click((663, 297))  # Botón salir/ Es una puerta roja en el costado izquierdo superior
 time.sleep(2)
 pyautogui.hotkey('alt', 'f4')
+time.sleep(2)
 pyautogui.hotkey('alt', 'tab') # En este caso, me quiero devolver al IDE a continuar programando o devolverme a hacer lo que esté haciendo
 print("Aplicación cerrada.")
